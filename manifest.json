@@ -6,7 +6,7 @@
     "revision": "0",
     "image": "flecs.azurecr.io/com.somic-packaging.labrador",
     "multiInstance": false,
-    "editor": "9080",
+    "editor": ":9080",
     "ports": [
         "9080:80"
     ]
