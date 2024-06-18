@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM scratch:${VERSION}
+FROM somic-reserach-development-software/labrador:${VERSION}
 
 ARG ARCH
 ARG VERSION
