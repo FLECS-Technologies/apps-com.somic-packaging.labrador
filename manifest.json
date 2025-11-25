@@ -9,5 +9,13 @@
     "editor": ":9080",
     "ports": [
         "9080:8080"
+    ],
+    "volumes": [
+        "/home/somic/app/labrador/:/labrador"
+    ],
+    "env": [
+        "ApplicationSettingsPath=/labrador/labrador.yaml",
+        "ConnectionStrings__SQLiteDefault=DataSource=/labrador/labrador.db",
+        "LabradorLocation=/labrador/"
     ]
 }
