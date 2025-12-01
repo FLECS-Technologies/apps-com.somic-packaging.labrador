@@ -8,7 +8,7 @@
     "multiInstance": false,
     "editor": ":9080",
     "ports": [
-        "9080:8080"
+        "9080:8081"
     ],
     "volumes": [
         "/home/somic/app/labrador/:/labrador"
@@ -16,6 +16,9 @@
     "env": [
         "ApplicationSettingsPath=/labrador/labrador.yaml",
         "ConnectionStrings__SQLiteDefault=DataSource=/labrador/labrador.db",
-        "LabradorLocation=/labrador/"
+        "LabradorLocation=/labrador/",
+        "FRONTEND_PORT=5173",
+        "BACKEND_PORT=5222",
+        "SERVER_IP=0.0.0.0"
     ]
 }
