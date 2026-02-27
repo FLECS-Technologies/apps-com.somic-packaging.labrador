@@ -6,7 +6,13 @@
     "revision": "0",
     "image": "flecs.azurecr.io/com.somic-packaging.labrador",
     "multiInstance": false,
-    "editor": ":9080",
+    "editors": [
+        {
+            "name": "Somic Labrador",
+            "port": 8081,
+            "supportsReverseProxy": false
+        }
+    ],
     "ports": [
         "9080:8081"
     ],
