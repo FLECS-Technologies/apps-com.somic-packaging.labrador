@@ -14,7 +14,8 @@
         }
     ],
     "ports": [
-        "9080:8081"
+        "9080:8081",
+        "5222:5222"
     ],
     "volumes": [
         "/home/somic/app/labrador/:/labrador"
